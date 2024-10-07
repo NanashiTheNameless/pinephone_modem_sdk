@@ -23,6 +23,8 @@ If your Pinephone / Pro came with a really old stock firmware, you might need to
 * [ADSP Version 01.003.01.003](https://github.com/Biktorgj/quectel_eg25_recovery/raw/EG25GGBR07A08M2G_01.003.01.003/update/NON-HLOS.ubi) 
 * [ADSP Version 30.004.30.004](https://github.com/Biktorgj/quectel_eg25_recovery/raw/EG25GGBR07A08M2G_30.004.30.004/update/NON-HLOS.ubi)
 * [ADSP Version 30.006.30.006](https://github.com/Biktorgj/quectel_eg25_recovery/raw/EG25GGBR07A08M2G_30.006.30.006/update/NON-HLOS.ubi)
+* [ADSP Version 30.200.30.200](https://github.com/Biktorgj/quectel_eg25_recovery/raw/EG25GGBR07A08M2G_30.200.30.200/update/NON-HLOS.ubi)
+* [ADSP Version 30.202.30.202](https://github.com/Biktorgj/quectel_eg25_recovery/raw/EG25GGBR07A08M2G_30.202.30.202/update/NON-HLOS.ubi)
 #### Flashing it:
 1. Open a root terminal and run: `echo -ne "AT+QFASTBOOT\r" > /dev/ttyUSB2` to enter fastboot mode
 2. Run `fastboot flash modem NON-HLOS.ubi && fastboot reboot`
